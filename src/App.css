@@ -45,6 +45,7 @@ li{
 
 .icon{
     font-size: var(--h2FontSize);
+    cursor: pointer;
 }
 
 img{
@@ -102,4 +103,10 @@ body{
     overflow: hidden;
     border-radius: 1rem;
     box-shadow: 2px 2px 8px var(--greyText);    
+}
+
+/* hide scroll */
+
+::-webkit-scrollbar{
+    display: none;
 }
