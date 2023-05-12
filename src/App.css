@@ -5,7 +5,7 @@
     box-sizing: border-box;
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    transition: 0.3s ease;
+    transition: .3s ease;
 }
 
 /* color and style (default) */
@@ -39,7 +39,7 @@ a{
     text-decoration: none;
 }
 
-list{
+li{
     list-style: none;
 }
 
@@ -52,7 +52,7 @@ img{
     height: auto;
 }
 
-flex{
+.flex{
     display: flex;
     align-items: center;
 }
@@ -60,6 +60,7 @@ flex{
 .grid{
     display: grid;
     align-items: center;
+    gap: 1.5rem;
 }
 
 .btn{
