@@ -132,4 +132,15 @@
 .listingSection .sellers .topSellers .card .cardText span small .date,
 .listingSection .sellers .featuredSeller .card .cardText span small .date {
   margin-left: 1rem;
+}
+
+@media screen and (max-width: 990px) {
+  .listingSection .sellers .card {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 918px) {
+  .listingSection .singleItem {
+    width: 200px;
+  }
 }/*# sourceMappingURL=listing.css.map */
