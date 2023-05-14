@@ -136,11 +136,23 @@
 
 @media screen and (max-width: 990px) {
   .listingSection .sellers .card {
-    flex-direction: column;
+    flex-direction: row;
   }
 }
 @media screen and (max-width: 918px) {
   .listingSection .singleItem {
-    width: 200px;
+    width: 200px !important;
+  }
+}
+@media screen and (max-width: 490px) {
+  .listingSection .sellers {
+    flex-direction: column;
+  }
+  .listingSection .sellers .card {
+    flex-direction: row;
+  }
+  .listingSection .sellers .topSellers .card .users,
+  .listingSection .sellers .featuredSeller .card .users {
+    border-right: none;
   }
 }/*# sourceMappingURL=listing.css.map */

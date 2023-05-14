@@ -160,7 +160,7 @@
     .listingSection {
         .sellers {
             .card {
-                flex-direction: column;
+                flex-direction: row;
             }
         }
     }
@@ -169,7 +169,28 @@
 @media screen and (max-width: 918px) {
     .listingSection {
         .singleItem {
-            width: 200px;
+            width: 200px !important;
+        }
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .listingSection {
+        .sellers {
+            flex-direction: column;
+
+            .card {
+                flex-direction: row;
+            }
+
+            .topSellers,
+            .featuredSeller {
+                .card {
+                    .users {
+                        border-right: none;
+                    }
+                }
+            }
         }
     }
 }
