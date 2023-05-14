@@ -145,6 +145,9 @@
   }
 }
 @media screen and (max-width: 490px) {
+  .listingSection .singleItem {
+    flex-basis: 100%;
+  }
   .listingSection .sellers {
     flex-direction: column;
   }
