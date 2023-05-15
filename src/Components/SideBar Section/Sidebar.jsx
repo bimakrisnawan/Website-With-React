@@ -35,7 +35,7 @@ const Sidebar = () => {
                         <a href="#" className='menuLink flex'>
                             <IoMdSpeedometer className="icon" />
                             <span className="smallText">
-                                Dashboard
+                                Work
                             </span>
                         </a>
                     </li>
@@ -44,7 +44,7 @@ const Sidebar = () => {
                         <a href="#" className='menuLink flex'>
                             <MdDeliveryDining className="icon" />
                             <span className="smallText">
-                                My Orders
+                                Project
                             </span>
                         </a>
                     </li>
@@ -53,28 +53,26 @@ const Sidebar = () => {
                         <a href="#" className='menuLink flex'>
                             <MdOutlineExplore className="icon" />
                             <span className="smallText">
-                                Explore
+                                Blog
                             </span>
                         </a>
                     </li>
 
                     <li className="listItem">
                         <a href="#" className='menuLink flex'>
-                            <BsTrophy className="icon" />
+                            <MdOutlineExplore className="icon" />
                             <span className="smallText">
-                                Product
+                                Skill
                             </span>
                         </a>
                     </li>
-
-
 
                 </ul>
             </div>
 
             <div className="settingsDiv">
                 <h3 className="divTitle">
-                    Settings
+                    Other
                 </h3>
                 <ul className="menuLists grid">
 
@@ -82,39 +80,10 @@ const Sidebar = () => {
                         <a href="#" className='menuLink flex'>
                             <AiOutlinePieChart className="icon" />
                             <span className="smallText">
-                                Chart
+                                Achievement
                             </span>
                         </a>
                     </li>
-
-                    <li className="listItem">
-                        <a href="#" className='menuLink flex'>
-                            <BiTrendingUp className="icon" />
-                            <span className="smallText">
-                                Trends
-                            </span>
-                        </a>
-                    </li>
-
-                    <li className="listItem">
-                        <a href="#" className='menuLink flex'>
-                            <MdOutlinePermContactCalendar className="icon" />
-                            <span className="smallText">
-                                Calendar
-                            </span>
-                        </a>
-                    </li>
-
-                    <li className="listItem">
-                        <a href="#" className='menuLink flex'>
-                            <BsCreditCard2Front className="icon" />
-                            <span className="smallText">
-                                Card
-                            </span>
-                        </a>
-                    </li>
-
-
 
                 </ul>
             </div>
@@ -125,9 +94,9 @@ const Sidebar = () => {
                     <div className="circle1"></div>
                     <div className="circle2"></div>
 
-                    <h3>Help Center</h3>
-                    <p>Having question? Contact us to know your problem!</p>
-                    <button className='btn'>Go to help center</button>
+                    <h3>Contact Me</h3>
+                    <p>Please contact the email below</p>
+                    <button className='btn'>Email Me!</button>
                 </div>
             </div>
 
